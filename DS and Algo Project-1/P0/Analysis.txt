@@ -1,0 +1,17 @@
+1. O(1)  
+(The part of the prgram that was asked to be implemented was fixed, ie different sizes of data wouldn't affect number of instructions required to implement the code, hence a constant time complexity)
+
+2. O(n)  
+(the function that was defined consists of two independent for loops and a couple of fixed instructions, hence the time complexity would be linear)
+
+3. O(n + nlog(n))
+(Again as in the previous case, the function to be defined consists of two independent for loops, along with a couple of if-else statements that (atleast one of em) would be executed, in addition to this the introduction of the dorted function introducces a nlogn term along with the linear term)
+
+4. a) O(n + nlog(n))
+   (Now although this seems like a n^2 complexity owing to the fact that there is a loop within a loop, the nested loop only loops for 5 times (if it starts looping that is), and also taking into account the sorted function adds a nlogn term to the already existing linear one)
+
+   b) O(n)
+   (This is quite simple, as there is only 1 loop, with a couple of other fixed instructions, amounting to a linear time complexity)
+
+5. O(n)
+(Now this consists of three loops, which are however independent of each other, leading to a linear time complexity)
